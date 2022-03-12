@@ -1,5 +1,5 @@
 ### API de encurtador de URL
-#### Objetivo
+### Objetivo
 Esta API foi construída para avaliação de conhecimentos sobre NodeJS, Express, Typescript e Firestore.
 
 ### Para rodar esse projeto
