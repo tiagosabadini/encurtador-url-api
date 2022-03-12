@@ -1,9 +1,9 @@
 import Url from "../core/Url";
 
 export default class IUrlRepositorio {
-  async salvar(url: Url): Promise<Url>
+  //async salvar(url: Url): Promise<Url>
   //async excluir(url: Url): Promise<void> 
-  //async listar(): Promise<any[]> 
+  //async listar(): Promise<QuerySnapshot<DocumentData>>
 }
 
 
