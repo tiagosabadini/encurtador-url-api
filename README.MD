@@ -14,3 +14,12 @@ Esta API foi construída para avaliação de conhecimentos sobre NodeJS, Express
   //Em um novo terminal rode
   npm run dev
 ``` 
+
+### Endpoints
+* HOST: `http://localhost`
+* PORT: `5000`
+* Listar todas as URLs: `GET {HOST:PORT}/`
+* Encurtar URL: `POST {HOST:PORT}/ BODY {url: "https://minha-url"}`
+* Update URL: `PUT {HOST:PORT}/:id BODY {url: "https://minha-url-alterada"}`
+* Buscar URL encurtada: `GET {HOST:PORT}/:hash`
+* Excluir URL: `DELETE {HOST:PORT}/:id`
